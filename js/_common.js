@@ -66,9 +66,9 @@ $(document).ready(function () {
         f2 = f2.slice(3);
         f2 = f2.charAt(0).toUpperCase() + f2.slice(1);
         var f3 = functionName.replace("ex_","");
-        let tempVar = `clog_clear(); ${functionName}(); $('.es6-button').removeClass('active'); $('#${functionName}').addClass('active'); $('#mainHeader').html('<a href="?run_function=${functionName}">${f2}</a>');get_ts('js/${f3}.ts');`;                
+        let tempVar = `clog_clear(); ${functionName}(); $('.es6-button').removeClass('active'); $('#${functionName}').addClass('active'); $('#mainHeader').html('<a href="?run_function=${functionName}">${f2}</a>');get_ts('js/${f3}.ts'); document.title = '${f2} - ${default_title}';`;                
         $(this).attr("onclick",tempVar);
-        document.title = `${f2} - ${default_title}`;
+        
     }); 
 
     let param = get_url_parameter("run_function");
