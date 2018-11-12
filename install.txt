@@ -1,0 +1,13 @@
+to install typescript:
+npm -g install typescript
+
+
+tsc --init (this will create a tsconfig.json)
+tsc --watch
+
+
+---
+//(not globally, --save dev means its not needed when deploying)
+npm install lite-server --save-dev 
+//Modify package.json by adding "start": "lite-server" under scripts
+npm start

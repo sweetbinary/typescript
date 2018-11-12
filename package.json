@@ -1,0 +1,24 @@
+{
+  "name": "ze_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lite-server": "^2.3.0",
+    "systemjs": "^0.19.36",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.22",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

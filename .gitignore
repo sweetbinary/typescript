@@ -1,0 +1,6 @@
+# to create a gitignore file in windows, type this into the command prompt:
+#touch .gitignore
+
+/node_modules/*
+/.vs/*
+/applications/starbase/node_modules/*
